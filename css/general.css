@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* debut elimination des bordure de botton en responsive */
+  .navbar {
+    --bs-navbar-toggler-focus-width: 0rem;
+  }
+  .navbar-toggler {
+    border: 0 !important;
+  }
+  /* fin elimination des bordure de botton en responsive */
+
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+  @media (min-width: 992px) {
+    .navbar-brand {
+      margin-left: 3rem;
+    }
+  }
