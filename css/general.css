@@ -31,7 +31,13 @@ body::-webkit-scrollbar {
 .navbar-collapse a {
   color: white !important;
 }
+.navfict {
+  height: 66px;
+}
 @media (min-width: 768px) {
+  .navfict {
+    height: 0px;
+  }
   .w-md-75 {
     width: 75% !important;
   }
