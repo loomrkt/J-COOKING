@@ -1,0 +1,19 @@
+.navfict {
+  height: 66px;
+}
+@media (min-width: 768px) {
+  .navfict {
+    height: 0px;
+  }
+  .w-md-75 {
+    width: 75% !important;
+  }
+  .h-md-100{
+    height: 100% !important;
+  }
+}
+
+.titreSec {
+  font-size: calc(1.2rem + 1vw) !important;
+  font-weight: 700;
+}
