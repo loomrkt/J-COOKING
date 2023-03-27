@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/plats.css" />
     <script src="../js/bootstrap.min.js" defer></script>
+    <script src="../js/genRecettes.js" defer></script>
     <title>Top 10 des meilleures recettes japonaises - J COOKING</title>
   </head>
   <body>
@@ -55,31 +57,12 @@
     <!-- fin du bar de navigation -->
     <div class="container-fluid h-100">
       <div class="navfict"></div>
-      <div class="row h-md-100 align-items-center">
-        <div
-          class="col-12 col-md-6 d-flex align-items-center justify-content-center"
-        >
-          <p>
-            Découvrez les 10 meilleurs plats japonais sélectionnés pour leur
-            popularité, leur qualité, leur diversité ainsi que leur authenticité
-            et leur saveur. Que vous soyez un fin connaisseur de la cuisine
-            japonaise ou que vous la découvriez pour la première fois, notre
-            liste vous transportera vers une expérience culinaire inoubliable et
-            vous donnera l'envie d'explorer davantage la culture culinaire
-            japonaise. Installez-vous confortablement et laissez-vous tenter par
-            les plats les plus délicieux du Japon !
-          </p>
-        </div>
-        <div
-          class="col-12 col-md-6 d-flex align-items-center justify-content-center"
-        >
-          <img
-            src="../images/sa3.png"
-            alt=""
-            class="object-fit-contain w-100 h-100"
-          />
-        </div>
-      </div>
+      <h1 class="w-100 text-center fs-4">
+        Les top 10 des meilleures recettes japonaises
+      </h1>
+      <div
+        class="row align-items-center justify-content-center" id="listRecettes"
+      ></div>
       <div class="container">
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -89,7 +72,9 @@
               >
             </li>
             <li class="nav-item">
-              <a href="Plats.html" class="nav-link px-2 text-muted">Plats</a>
+              <a href="Plats.html" class="nav-link px-2 text-muted"
+                >Plats</a
+              >
             </li>
             <li class="nav-item">
               <a href="Apropos.html" class="nav-link px-2 text-muted"

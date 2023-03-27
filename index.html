@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Site de presentation et recettes de Sushi ,Ramen ,Tempura,Okonomiyaki,Tonkatsu,Udon,
+      content="Site de presentation de Sushi ,Ramen ,Tempura,Okonomiyaki,Tonkatsu,Udon,
       Yakitori,Miso soup,Gyoza,Shabu-shabu"
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/index.css" />
     <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/gsap.min.js" defer></script>
+    <script src="js/indexA.js" defer></script>
     <title>Top 10 des meilleures recettes japonaises - J COOKING</title>
   </head>
   <body>
@@ -45,15 +47,15 @@
           <!-- margin auto sur l'axe x -->
           <div class="mx-auto"></div>
           <!-- list des option -->
-          <div class="navbar-nav me-5">
+          <div class="navbar-nav me-5 presentation">
             <a
               class="nav-link ms-3 ms-lg-0 active"
               aria-current="page"
               href="index.html"
               >Accueil</a
             >
-            <a class="nav-link ms-3 ms-lg-0" href="otherPage/Recettes.html"
-              >Recettes</a
+            <a class="nav-link ms-3 ms-lg-0" href="otherPage/Plats.html"
+              >Plats</a
             >
             <a class="nav-link ms-3 ms-lg-0" href="otherPage/Apropos.html"
               >A propos</a
@@ -63,14 +65,16 @@
       </div>
     </nav>
     <!-- fin du bar de navigation -->
-    <div class="container-fluid h-100">
+    <div class="container-fluid h-100 presentation">
       <div class="navfict"></div>
       <div class="row h-100 align-items-center">
         <div
           class="col-12 col-md-6 h-50 d-flex align-items-center justify-content-center"
         >
           <div class="w-100 w-md-75">
-            <h1 class="titreSec">BIENVENUE SUR J COOKING</h1>
+            <h1 class="titreSec">
+              BIENVENUE SUR <span class="nomSite">J COOKING</span>
+            </h1>
             <p>
               Découvrez les 10 meilleurs plats japonais sur notre page dédiée !
               Des sushis aux ramens en passant par les tempuras, laissez-vous
@@ -120,10 +124,16 @@
               <a href="index.html" class="nav-link px-2 text-muted">Accueil</a>
             </li>
             <li class="nav-item">
-              <a href="otherPage/Recettes.html" class="nav-link px-2 text-muted">Recettes</a>
+              <a href="../otherPage/Plats.html" class="nav-link px-2 text-muted"
+                >Plats</a
+              >
             </li>
             <li class="nav-item">
-              <a href="otherPage/Apropos.html" class="nav-link px-2 text-muted">A propos</a>
+              <a
+                href="../otherPage/Apropos.html"
+                class="nav-link px-2 text-muted"
+                >A propos</a
+              >
             </li>
           </ul>
           <div
@@ -136,12 +146,12 @@
             >
               <li class="ms-4">
                 <a href="https://web.facebook.com/nameno.rkt.9" target="_blank"
-                  ><img src="images/fb.png" alt=""
+                  ><img src="../images/fb.png" alt=""
                 /></a>
               </li>
               <li class="ms-4">
                 <a href="https://www.instagram.com/namenorkt/" target="_blank"
-                  ><img src="images/insta.png" alt=""
+                  ><img src="../images/insta.png" alt=""
                 /></a>
               </li>
             </ul>
