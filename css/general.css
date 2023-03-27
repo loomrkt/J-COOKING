@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../font/mvboli.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+.conteneur {
+  width: 100%;
+  height: 100%;
+  overflow: scroll !important;
+}
+body {
+  background-image: url(../images/fond.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+/* debut elimination des bordure de botton en responsive */
+.navbar {
+  z-index: 1;
+  --bs-navbar-toggler-focus-width: 0rem;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+/* fin elimination des bordure de botton en responsive */
+.nomSite {
+  font-family: "font-1";
+}
+.navbar-brand {
+  margin-left: 1rem;
+  font-family: "font-1";
+}
+.navbar-collapse {
+  background-color: rgb(16, 16, 16) !important;
+  border: none !important;
+}
+.navbar-collapse a {
+  color: white !important;
+}
+.navfict {
+  height: 66px;
+}
+@media (min-width: 768px) {
+  .navfict {
+    height: 0px;
+  }
+  .w-md-75 {
+    width: 75% !important;
+  }
+  .h-md-100 {
+    height: 100% !important;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-brand {
+    margin-left: 3rem;
+  }
+  .navbar-collapse {
+    background-color: white !important;
+  }
+  .navbar-collapse a {
+    color: black !important;
+  }
+}
