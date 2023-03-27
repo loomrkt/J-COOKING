@@ -2,61 +2,61 @@
   {
     "titre": "Sushi",
     "description": "Le plat le plus célèbre de la cuisine japonaise, consistant en du riz vinaigré garni de poisson cru ou d'autres ingrédients.",
-    "img": "../images/Sushi.png",
+    "img": "../images/Sushi.webp",
     "alt": "image de Sushi"
   },
   {
     "titre": "Ramen",
     "description": "Un plat de nouilles japonais avec une soupe savoureuse et diverses garnitures, telles que des tranches de porc, des œufs durs et des légumes.",
-    "img": "../images/ramen.png",
+    "img": "../images/ramen.webp",
     "alt": "image de Ramen"
   },
   {
     "titre": "Tempura",
     "description": "Des aliments frits tels que les crevettes, les légumes ou les champignons, enrobés d'une pâte légère et croustillante.",
-    "img": "../images/Tempura.png",
+    "img": "../images/Tempura.webp",
     "alt": "Image de Tempura"
   },
   {
     "titre": "Okonomiyaki",
     "description": "Une sorte de crêpe japonaise avec des ingrédients mélangés, tels que le chou, le porc, les crevettes et le tempura, cuit sur une plaque chauffante.",
-    "img": "../images/Okonomiyaki.png",
+    "img": "../images/Okonomiyaki.webp",
     "alt": "Image de Okonomiyaki"
   },
   {
     "titre": "Tonkatsu",
     "description": "Des tranches de porc panées et frites, souvent servies avec du riz et de la sauce tonkatsu.",
-    "img": "../images/Tonkatsu.png",
+    "img": "../images/Tonkatsu.webp",
     "alt": "Image de Tonkatsu"
   },
   {
     "titre": "Udon",
     "description": "Des nouilles épaisses et chewy, servies dans une soupe chaude ou froide avec divers ingrédients tels que le tempura, les algues et les œufs.",
-    "img": "../images/Udon.png",
+    "img": "../images/Udon.webp",
     "alt": "Image de Udon"
   },
   {
     "titre": "Yakitori",
     "description": "Des brochettes de viande ou de poulet grillées, marinées dans une sauce sucrée et salée.",
-    "img": "../images/Yakitori.png",
+    "img": "../images/Yakitori.webp",
     "alt": "Image de Yakitori"
   },
   {
     "titre": "Miso soup",
     "description": "Une soupe à base de pâte de soja fermentée, souvent servie avec des algues et des cubes de tofu.",
-    "img": "../images/miso_soup.png",
+    "img": "../images/miso_soup.webp",
     "alt": "Image de Miso soup"
   },
   {
     "titre": "Gyoza",
     "description": "Des petits chaussons japonais farcis de légumes et de viande, souvent servis comme amuse-bouche ou en plat principal.",
-    "img": "../images/gyoza.png",
+    "img": "../images/gyoza.webp",
     "alt": "Image de Gyoza"
   },
   {
     "titre": "Shabu-shabu",
     "description": "Une fondue japonaise où les invités cuisent des tranches fines de viande et des légumes dans un bouillon chaud avant de les tremper dans une sauce.",
-    "img": "../images/shabu-shabu.png",
+    "img": "../images/shabu-shabu.webp",
     "alt": "Image de Shabu-shabu"
   }
 ]
