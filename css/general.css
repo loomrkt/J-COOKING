@@ -14,7 +14,7 @@ body,
   overflow: scroll !important;
 }
 body {
-  background-image: url(../images/fond.png);
+  background-image: url(../images/fond.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
