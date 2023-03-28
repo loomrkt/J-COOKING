@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/plats.css" />
     <script src="../js/bootstrap.min.js" defer></script>
-    <script src="../js/genRecettes.js" defer></script>
+    <script src="../js/gsap.min.js" defer></script>
+    <script src="../js/platsA.js" defer></script>
     <title>Top 10 des meilleures recettes japonaises - J COOKING</title>
   </head>
   <body>
@@ -62,13 +63,188 @@
     <!-- fin du bar de navigation -->
     <div class="container-fluid h-100">
       <div class="navfict"></div>
-      <h1 class="w-100 text-center fs-4">
+      <h1 class="w-100 text-center fs-4 anim">
         Les top 10 des meilleures recettes japonaises
       </h1>
       <div
         class="row align-items-center justify-content-center"
         id="listRecettes"
-      ></div>
+      >
+        <div
+          class="card bg-transparent border-0 col-6 col-lg-2 anim"
+          style="width: 18rem; z-index: -1"
+        >
+          <img
+            class="card-img-top"
+            src="../images/Sushi.webp "
+            alt="image de Sushi "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Sushi</h5>
+            <p class="card-text">
+              Le plat le plus célèbre de la cuisine japonaise, consistant en du
+              riz vinaigré garni de poisson cru ou d'autres ingrédients.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card bg-transparent border-0 col-6 col-lg-2 anim"
+          style="width: 18rem; z-index: -1"
+        >
+          <img
+            class="card-img-top"
+            src="../images/ramen.webp "
+            alt="image de Ramen "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ramen</h5>
+            <p class="card-text">
+              Un plat de nouilles japonais avec une soupe savoureuse et diverses
+              garnitures, telles que des tranches de porc, des œufs durs et des
+              légumes.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card bg-transparent border-0 col-6 col-lg-2 anim"
+          style="width: 18rem; z-index: -1"
+        >
+          <img
+            class="card-img-top"
+            src="../images/Tempura.webp "
+            alt="Image de Tempura "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tempura</h5>
+            <p class="card-text">
+              Des aliments frits tels que les crevettes, les légumes ou les
+              champignons, enrobés d'une pâte légère et croustillante.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card bg-transparent border-0 col-6 col-lg-2 anim"
+          style="width: 18rem; z-index: -1"
+        >
+          <img
+            class="card-img-top"
+            src="../images/Okonomiyaki.webp "
+            alt="Image de Okonomiyaki "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Okonomiyaki</h5>
+            <p class="card-text">
+              Une sorte de crêpe japonaise avec des ingrédients mélangés, tels
+              que le chou, le porc, les crevettes et le tempura, cuit sur une
+              plaque chauffante.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card bg-transparent border-0 col-6 col-lg-2 anim"
+          style="width: 18rem; z-index: -1"
+        >
+          <img
+            class="card-img-top"
+            src="../images/Tonkatsu.webp "
+            alt="Image de Tonkatsu "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tonkatsu</h5>
+            <p class="card-text">
+              Des tranches de porc panées et frites, souvent servies avec du riz
+              et de la sauce tonkatsu.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card bg-transparent border-0 col-6 col-lg-2 anim"
+          style="width: 18rem; z-index: -1"
+        >
+          <img
+            class="card-img-top"
+            src="../images/Udon.webp "
+            alt="Image de Udon "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Udon</h5>
+            <p class="card-text">
+              Des nouilles épaisses et chewy, servies dans une soupe chaude ou
+              froide avec divers ingrédients tels que le tempura, les algues et
+              les œufs.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card bg-transparent border-0 col-6 col-lg-2 anim"
+          style="width: 18rem; z-index: -1"
+        >
+          <img
+            class="card-img-top"
+            src="../images/Yakitori.webp "
+            alt="Image de Yakitori "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Yakitori</h5>
+            <p class="card-text">
+              Des brochettes de viande ou de poulet grillées, marinées dans une
+              sauce sucrée et salée.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card bg-transparent border-0 col-6 col-lg-2 anim"
+          style="width: 18rem; z-index: -1"
+        >
+          <img
+            class="card-img-top"
+            src="../images/miso_soup.webp "
+            alt="Image de Miso soup "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Miso soup</h5>
+            <p class="card-text">
+              Une soupe à base de pâte de soja fermentée, souvent servie avec
+              des algues et des cubes de tofu.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card bg-transparent border-0 col-6 col-lg-2 anim"
+          style="width: 18rem; z-index: -1"
+        >
+          <img
+            class="card-img-top"
+            src="../images/gyoza.webp "
+            alt="Image de Gyoza "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Gyoza</h5>
+            <p class="card-text">
+              Des petits chaussons japonais farcis de légumes et de viande,
+              souvent servis comme amuse-bouche ou en plat principal.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card bg-transparent border-0 col-6 col-lg-2 anim"
+          style="width: 18rem; z-index: -1"
+        >
+          <img
+            class="card-img-top"
+            src="../images/shabu-shabu.webp "
+            alt="Image de Shabu-shabu "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Shabu-shabu</h5>
+            <p class="card-text">
+              Une fondue japonaise où les invités cuisent des tranches fines de
+              viande et des légumes dans un bouillon chaud avant de les tremper
+              dans une sauce.
+            </p>
+          </div>
+        </div>
+      </div>
       <div class="container">
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -107,7 +283,11 @@
                   href="https://www.instagram.com/namenorkt/"
                   target="_blank"
                   aria-label="Lien vers l'instagram de namenorkt"
-                  ><img width="20" height="20" src="../images/insta.webp" alt=""
+                  ><img
+                    width="20"
+                    height="20"
+                    src="../images/insta.webp"
+                    alt=""
                 /></a>
               </li>
             </ul>
